@@ -1,10 +1,10 @@
-# Project Title
+# NBA Predictive Statistics
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This project will explore potential factors in basketball that correlate to more wins for a given team.  
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
+In this project, we will explore fcotrs x, y, and z, and study the relationship between these variables and the wins for a team. 
 
 ### Interesting Insight (Optional)
 
@@ -12,11 +12,11 @@ This is optional but highly recommended. You'll include one interesting insight 
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+Our data was pulled directly from the NBA website.
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+Provide some information about what you intend to do with the project. You can additionally refer the visitor to your detailed plan document.
 
 ## Repo Structure
 
