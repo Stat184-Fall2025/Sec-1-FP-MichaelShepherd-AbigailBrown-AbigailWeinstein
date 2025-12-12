@@ -12,7 +12,7 @@ This is optional but highly recommended. You'll include one interesting insight 
 
 ## Data Sources and Acknowledgements
 
-Our data was pulled directly from the NBA website.
+Our data was pulled directly from BasketballRefences website.
 
 ## Current Plan
 
