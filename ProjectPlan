@@ -9,7 +9,6 @@ Step 1: Collect data and clean data
   c. Merge data via row bind. 
     **Note: be sure to exclude COVID season data**
   d. Clean data
-  e. Generate win ratio and game total statistics
 Step 2: Identify variables of interest
   a. Meet with team, discuss possible variables
   b. Create a subset containing these variables 
@@ -17,7 +16,7 @@ Step 2: Identify variables of interest
 Step 3: Conduct exploratory data analysis on data 
   a. Develop summary tables for data addressing min., max., mean and other stats.
   b. Create a 10-year breakdown of stats by team
-  c. Plot out trends in win rates over time
+  c. Plot out trends in wins over time
   d. Explore relationships with identified variables 
     i. Correlation coefficients + statistical significance
     ii. Line of best fit plots
