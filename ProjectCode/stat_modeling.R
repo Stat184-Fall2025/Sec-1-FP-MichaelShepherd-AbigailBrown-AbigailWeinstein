@@ -6,12 +6,15 @@ library(modelsummary)
 
 #import data
 allNBA <- read.csv("Data/allNBA.csv")
+allNBA <- allNBA[complete.cases(allNBA[, c("W","Age","Pace","X3PAr")]), ]
 
 #generate correlaation coefficients
 #identify correlation coefficients
-age <- cor.test(allNBA$WinR, allNBA$Age)
-tpar <- cor.test(allNBA$WinR, allNBA$X3PAr)
-pace <- cor.test(allNBA$WinR, allNBA$Pace)
+age <- cor.test(allNBA$W, allNBA$Age)
+tpar <- cor.test(allNBA$W, allNBA$X3PAr)
+pace <- cor.test(allNBA$W, allNBA$Pace)
+
+w <- cor.test(allNBA$Pace, allNBA$W)
 
 #combine into a df
 factor <- c("age", "tpar", "pace")
@@ -24,11 +27,11 @@ factorcoef <- data.frame(factor, coef, t, p)
 
 #linear model creation
 #select and rename columns 
-modelNBA <- allNBA %>% select(WinR, Age, X3PAr, Pace)
-colnames(modelNBA) <- c("Win Rate", "Age", "ThreePointAtt.", "Pace")
+modelNBA <- allNBA %>% select(W, Age, X3PAr, Pace)
+colnames(modelNBA) <- c("Wins", "Age", "ThreePointAtt.", "Pace")
 
 #create model 
-winmodel1 <- lm(`Win Rate` ~ Age + ThreePointAtt. + Pace, data = modelNBA)
+winmodel1 <- lm(Wins ~ Age + ThreePointAtt. + Pace, data = modelNBA)
 summary(winmodel1)
 model <- list("Model 1" = winmodel1)
 

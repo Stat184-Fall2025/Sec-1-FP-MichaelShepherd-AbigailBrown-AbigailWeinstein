@@ -35,12 +35,6 @@ allNBA <- rbind(
 allNBA <- allNBA %>% select(-c(X, X.1, X.2)) %>%  filter(Team != "League Average")
 allNBA$Team <- gsub("\\*", "", allNBA$Team)
 
-#add measure of win ratio
-allNBA <- allNBA %>% group_by(Team, Year) %>% mutate(
-  Total = W + L, 
-  WinR = W/Total
-)
-
 #check data
 View(allNBA)
 

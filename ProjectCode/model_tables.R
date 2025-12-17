@@ -9,7 +9,7 @@ corrtab <- factorcoef %>% kable(
   col.names = c("", "Correlation Coef. (p)", "t-Statistic", "p-Value"),
   digits = 3, 
   align = "lccc", 
-  caption = c("Factor Correlation with Win Rate")
+  caption = c("Factor Correlation with Season Win Total")
   ) %>% kable_classic()
 corrtab
 save_kable(corrtab, "Visualizations/tables/correlation.png")
