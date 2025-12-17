@@ -1,0 +1,61 @@
+FINAL PROJECT PLAN
+Goal: Produce a report discussing relationships between various basketball 
+stats and overall season performance
+
+Task 1 - Code and Explore Data
+Step 1: Collect data and clean data
+  a. Download data from Basketball-Reference by season from 2015 to 2025
+  b. Add year var. to each season
+  c. Merge data via row bind. 
+    **Note: be sure to exclude COVID season data**
+  d. Clean data
+  e. Generate win ratio and game total statistics
+Step 2: Identify variables of interest
+  a. Meet with team, discuss possible variables
+  b. Create a subset containing these variables 
+    **Note: vars selected: pace, age, and 3PA**
+Step 3: Conduct exploratory data analysis on data 
+  a. Develop summary tables for data addressing min., max., mean and other stats.
+  b. Create a 10-year breakdown of stats by team
+  c. Plot out trends in win rates over time
+  d. Explore relationships with identified variables 
+    i. Correlation coefficients + statistical significance
+    ii. Line of best fit plots
+Step 4: Identify impact of vars. on win rate
+  a. Generate a linear regression model
+  b. Create a table for the linear regression model
+  c. Plot regression
+
+Task 2: Create report/presentation - .QMD and .PDF
+Step 1: Explain topic of interest + data
+  a. Identify research goal (see above)
+  b. Explain data sourcing 
+  c. FAIR and CARE principles
+  d. General data exploration 
+    i. Use tables from EDA in 1.3.a & b
+  e. Identify variables of interest
+Step 2: Data exploration and analysis
+  a. Discuss each variable's relevance to win ratio
+  b. Explore individual relationships between variables and success
+    **Note: use visualizations from 1.3.d
+    i. Explain individual relationships and implications
+  c. Synthesize relationships 
+    **Note: use vis. from 1.4
+    i. Explain regression model and implications
+Step 3: Discussion 
+  a. Identify findings
+  b. Develop a collective narrative about the elements discussed
+  c. Reflect
+    **Note: identify areas of future exploration, limitations, etc. 
+
+Task 3: Create GITHUB repository
+Step 1: Open GitHub repository and share with team
+  a. See instructions from Project_Guidelines document
+Step 2: Add necessary documentation
+  a. README.md
+  b. Plan document
+  c. Upload code, vis, data, and report
+Step 3: Organize repo
+  a. Create separate files for code, vis, and data
+  b. Update README.md with appropriate hyperlinks
+Step 4: Review report and repo
