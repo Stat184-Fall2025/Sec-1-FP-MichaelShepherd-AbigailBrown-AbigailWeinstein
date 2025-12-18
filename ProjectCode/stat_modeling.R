@@ -14,8 +14,6 @@ age <- cor.test(allNBA$W, allNBA$Age)
 tpar <- cor.test(allNBA$W, allNBA$X3PAr)
 pace <- cor.test(allNBA$W, allNBA$Pace)
 
-w <- cor.test(allNBA$Pace, allNBA$W)
-
 #combine into a df
 factor <- c("age", "tpar", "pace")
 coef <- c(age$estimate, tpar$estimate, pace$estimate)
