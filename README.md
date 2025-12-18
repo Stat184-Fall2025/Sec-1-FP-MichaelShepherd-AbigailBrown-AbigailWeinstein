@@ -39,11 +39,12 @@ The following section contains hyperlinks to each section of the GitHub reposito
 1.  [**Project Guidelines**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/blob/main/Project_Guidelines.md): Documentation detailing general project expectations, including key dates, check list of materials, and more.
 2.  [**README.md**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/blob/main/README.md): Introduction to the team's specific project. Contains a project overview, data sources, and contact information of the project authors.
 3.  [**Final Report Plan**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/blob/main/ProjectPlan)**:** A text file detailing the process the team went through to produce the final report.
-4.  {**Final Report.pdf}:** The final report of the project. Outlines findings and situates them within a broader context.
-5.  [**Work in Progress Presentation**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/blob/main/Work%20In%20Progress%20Presentation.pdf): Work in progress presentation from 12/12/2025.
-6.  [**Data Folder**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/tree/main/Data): This folder contains the .csv files for each individual season pulled from Basketball-Reference, as well as the final merged data file.
-7.  [**Project Code Folder**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/tree/main/ProjectCode)**:** This folder contains all .R code used to merge and clean data, produce visualizations, and generate statistical models.
-8.  [**Visualizations Folder**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/tree/main/Visualizations): This folder contains all versions of the visuals utilized in the final report, including tables, charts, and other figures.
+4.  **{Final Report.qmd}**: .QMD file of the final report, which is in .pdf format
+5.  {**Final Report.pdf}:** The final report of the project. Outlines findings and situates them within a broader context.
+6.  [**Work in Progress Presentation**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/blob/main/Work%20In%20Progress%20Presentation.pdf): Work in progress presentation from 12/12/2025.
+7.  [**Data Folder**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/tree/main/Data): This folder contains the .csv files for each individual season pulled from Basketball-Reference, as well as the final merged data file.
+8.  [**Project Code Folder**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/tree/main/ProjectCode)**:** This folder contains all .R code used to merge and clean data, produce visualizations, and generate statistical models.
+9.  [**Visualizations Folder**](https://github.com/Stat184-Fall2025/Sec-1-FP-MichaelShepherd-AbigailBrown-AbigailWeinstein/tree/main/Visualizations): This folder contains all versions of the visuals utilized in the final report, including tables, charts, and other figures.
 
 ## Authors
 

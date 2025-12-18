@@ -1,0 +1,22 @@
+---
+title: "UnemployedFinalReport"
+format: pdf
+editor: visual
+author: Abigail Brown, Michael Shepard, and Abigail Weinstein
+date: 12-17-2025
+---
+
+## Unemployed :) Final Report
+
+### Overview
+
+### Data Exploration
+
+### Data Analysis
+
+### Discussion and Reflection
+
+### Code Appendix
+
+```{r codeAppend, ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
