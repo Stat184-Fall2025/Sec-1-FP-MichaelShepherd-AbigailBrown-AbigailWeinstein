@@ -1,31 +1,31 @@
 library(ggplot2)
 
 # Load data
-allNBA <- read.csv("allNBA.csv")
+allNBA <- read.csv("Data/allNBA.csv")
 
 # Keep only rows with complete values for the variables we use
-allNBA <- allNBA[complete.cases(allNBA[, c("W","Age","Pace","ThreePAR")]), ]
+allNBA <- allNBA[complete.cases(allNBA[, c("W","Age","Pace","X3PAr")]), ]
 
 # Ensure numeric
-allNBA$W        <- as.numeric(allNBA$W)
-allNBA$Age      <- as.numeric(allNBA$Age)
-allNBA$Pace     <- as.numeric(allNBA$Pace)
-allNBA$ThreePAR <- as.numeric(allNBA$ThreePAR)
+allNBA$W <- as.numeric(allNBA$W)
+allNBA$Age <- as.numeric(allNBA$Age)
+allNBA$Pace  <- as.numeric(allNBA$Pace)
+allNBA$X3PAr <- as.numeric(allNBA$X3PAr)
 
 # Correlations (for labeling plots)
 cor_age  <- round(cor(allNBA$Age, allNBA$W, use = "complete.obs"), 2)
 cor_pace <- round(cor(allNBA$Pace, allNBA$W, use = "complete.obs"), 2)
-cor_3par <- round(cor(allNBA$ThreePAR, allNBA$W, use = "complete.obs"), 2)
+cor_3par <- round(cor(allNBA$X3PAr, allNBA$W, use = "complete.obs"), 2)
 
 # Common styling helpers
 wins_ylim <- c(10, 75)
 subtitle_txt <- "NBA Non-COVID Seasons (2015–2019, 2022–2025)"
 
 # Plot 1: 3P Attempt Rate vs Wins
-p1 <- ggplot(allNBA, aes(x = ThreePAR, y = W)) +
+p1 <- ggplot(allNBA, aes(x = X3PAr, y = W)) +
   geom_point(alpha = 0.45, size = 2, color = "#2C7BB6") +
   geom_smooth(method = "lm", se = FALSE, color = "#D7191C", linewidth = 1) +
-  annotate("text", x = max(allNBA$ThreePAR, na.rm = TRUE), y = wins_ylim[2],
+  annotate("text", x = max(allNBA$X3PAr, na.rm = TRUE), y = wins_ylim[2],
            label = paste("Correlation =", cor_3par),
            hjust = 1, vjust = 1, size = 4) +
   coord_cartesian(ylim = wins_ylim) +
@@ -107,7 +107,12 @@ p5 <- ggplot(allNBA, aes(x = W)) +
 
 # Print all plots
 print(p1)
+ggsave("Visualizations/v3/3PAR.png", p1)
 print(p2)
+ggsave("Visualizations/v3/Age.png", p2)
 print(p3)
+ggsave("Visualizations/v3/Pace.png", p3)
 print(p4)
+ggsave("Visualizations/v3/AgeGroup.png", p4)
 print(p5)
+ggsave("Visualizations/v3/Dist.png", p5)
