@@ -14,8 +14,9 @@ The research goal of this project is to use exploratory data analysis to analyze
 ### Data Exploration
 datat exploration 
 (tables 1.3 a and b)
-### Data Analysis
 
+### Data Analysis
+Our data showed a moderate, positive correlation between Average Player Age and Wins, with r = 0.5252
 ### Discussion and Reflection
 
 ### Code Appendix
