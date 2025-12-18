@@ -12,9 +12,11 @@ date: 12-17-2025
 The research goal of this project is to use exploratory data analysis to analyze how different statistics correlate with the amount of wins a team experiences in the NBA. This research will help identify what qualities or strengths help teams succeed. Specifically in this project, we investigate the relationship between wins and average player age, attempted 3pt, and pace. Our data was sourced directly from the NBA website. For this project, we combined the yearly records from 2015-2025 to observe the effects over a longer period of time. The public data from the National Basketball Association meets both the FAIR and CARE principles. Specifically, our data is fair because it is easily findable and open to the public, it is accesible and can be viewed and used without needing special access, and it has the ability to be shared and reused. 
 
 ### Data Exploration
-datat exploration 
+data exploration 
 (tables 1.3 a and b)
+
 ### Data Analysis
+Our data showed a moderate, positive correlation between Average Player Age and Wins, with r = 0.5252
 
 ### Discussion and Reflection
 
