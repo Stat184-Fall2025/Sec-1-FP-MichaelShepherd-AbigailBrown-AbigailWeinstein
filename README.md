@@ -12,7 +12,7 @@ In this project, we aim to explore three primary factors in relation to team suc
 
 -   Pace Factor: evaluates the number of times a given team had the ball, addresses offensive/defensive strategies and play time.
 
-Collectively, these factors address what often determine how well team plays. In our exploration of these factors in relation to net rating, we will identify how each individual metric is correlated with points scored. Then, we will create a predictive model using these factors to identify number of wins in the future. It should be noted that there are a total of 82 games per season when considering the outcomes of these models.
+Collectively, these factors address what often determine how well team plays. In our exploration of these factors in relation to net rating, we will identify how each individual metric is correlated with points scored. It should be noted that there are a total of 82 games per season when considering the outcomes of these models.
 
 ### Interesting Insight
 
