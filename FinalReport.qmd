@@ -13,6 +13,7 @@ execute:
 ## Unemployed :) Final Report
 
 ### Overview
+The research goal of this project is to use exploratory data analysis to analyze how different statistics correlate with the amount of wins a team experiences in the NBA. This research will help identify what qualities or strengths help teams succeed. Specifically in this project, we investigate the relationship between wins and average player age, attempted 3pt, and pace. Our data was sourced directly from the NBA website. For this project, we combined the yearly records from 2015-2025 to observe the effects over a longer period of time. The public data from the National Basketball Association meets both the FAIR and CARE principles. Specifically, our data is fair because it is easily findable and open to the public, it is accesible and can be viewed and used without needing special access, and it has the ability to be shared and reused. 
 
 This project will explore how certain game play and team statistics are related to regular season success in the National Basketball Association (NBA). This will aid in identifying what strategies aid in winning games across the league.
 
@@ -96,6 +97,7 @@ p5
 As we can see, the distribution is not perfectly normal, with a high concentration of teams having approximately \~50 winning games a season. This is offset by the long tail of teams winning fewer games. There is a sharp drop off in game wins after this 50 winning game mark. What causes teams to be above this threshold rather than below it?
 
 ### Data Analysis
+Our data showed a moderate, positive correlation between Average Player Age and Wins, with r = 0.5252
 
 As a team, we have decided to explore *age*, *three-point attempt rate,* and *pace factor* as a means for determining team success by number of regular season wins. Upon further analysis, we found that the maximum number of games wins per season is around 50, with only a handful winning more than 60 per season. We investigate these factors see if they contribute to this phenomenon. To do so, we first examine the correlation between each factor and season win count. @tbl-corr shows the correlation coefficients of each variable of interest, as well as their p-values. @fig-pace, @fig-par, show the plotted coefficients.
 
