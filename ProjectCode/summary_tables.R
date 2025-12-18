@@ -6,7 +6,7 @@ library(psych)
 #file - create summary tables of variables of interest
 
 #import data 
-allNBA <- read.csv("NBA data/allNBA.csv")
+allNBA <- read.csv("Data/allNBA.csv")
 
 #select table information
 tableNBA <- allNBA %>% select(Team, Rk, Year, W , X3PAr, Pace, Age)
